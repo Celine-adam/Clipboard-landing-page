@@ -30,6 +30,12 @@ p{
     gap: 5rem;
     font-size: 1rem;
 }
+.container-middle {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
 
 header {
     min-height: 30vh;
