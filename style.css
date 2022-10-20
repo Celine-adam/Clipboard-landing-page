@@ -163,9 +163,20 @@ ul a {
 ul .twitter {
     color: rgb(20, 102, 179);
 }
-ul .instgram {
+ul .instagram {
     color: black;
 }
 ul .fb {
     color: rgb(2, 41, 92);
 }
+ @media screen and (max-width:768px) {
+    .buttons {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .img-2 {
+        width: 500px;
+    }
+ }
